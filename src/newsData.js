@@ -31,7 +31,7 @@ const news = [
   {
     id: 3,
     heading:
-      "Microstrategy Buys More Bitcoin — Company's Crypto Holdings Grow to 132,500 BTC<p>",
+      "Microstrategy Buys More Bitcoin — Company's Crypto Holdings Grow to 132,500 BTC",
     img: "/images/news3.png",
     paragraphs: [
       "Microstrategy is now holding approximately 132,500 bitcoin following its most recent purchases. This year, the world’s largest cryptocurrency has emerged as ‘the institutional-grade digital asset,’ said Microstrategy founder Michael Saylor.",

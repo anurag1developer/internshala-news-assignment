@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background: linear-gradient(to right, #ffd800, #433020);
+  background: linear-gradient(to right, #0c0d11, #060321);
 }
 
 .app {
@@ -18,10 +18,16 @@ body {
 
   h1 {
     text-align: center;
-    background: -webkit-linear-gradient(#00ffd0, #00ff08);
+    background: -webkit-linear-gradient(#070425, #f5f5f6);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    font-size: 5rem;
+
+    @media only screen and (max-width: 480px) {
+      font-size: 3rem;
+    }
   }
 
   display: flex;
@@ -34,5 +40,9 @@ body {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+
+    @media only screen and (max-width: 480px) {
+      width: 80%;
+    }
   }
 }
