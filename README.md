@@ -2,7 +2,7 @@
 
 ## - Internshala assignment
 
-## - Link to visit -
+## - Link to visit - https://courageous-lebkuchen-35f052.netlify.app/
 
 ## Getting Started with Create React App
 
