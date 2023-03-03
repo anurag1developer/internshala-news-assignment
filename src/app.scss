@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #ffd800, #433020);
+}
+
+.app {
+  width: 100%;
+  margin-top: 10px;
+
+  h1 {
+    text-align: center;
+    background: -webkit-linear-gradient(#00ffd0, #00ff08);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  .newsContainer {
+    width: 40%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}
